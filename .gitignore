@@ -1,0 +1,41 @@
+# Environment variables file
+.env
+
+# Database files
+*.sqlite3
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+myenv/
+env/
+
+# Django specific
+**/settings.pyc
+**/settings/__pycache__/
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations
+*/migrations/*.pyc
+*/migrations/__pycache__/
